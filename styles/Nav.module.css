@@ -1,0 +1,137 @@
+.topBar{
+  width:90%;
+  color: #000;
+  background-color: white;
+  padding:10px;
+ 
+  display: block;
+  margin: auto;
+
+  
+}
+.nav{
+ display: flex;
+ justify-content: space-between;
+}
+.left{
+  display: flex;
+}
+.left ul {
+  display: flex;
+    
+  align-items: center;
+    list-style: none;
+  
+  }
+.left ul li{
+    margin-right:35px;
+    font-size: 18px;
+    position: relative;
+  }
+  .left ul li a:hover:before {
+    content:"";
+    position:absolute;
+    top:-12px;
+    background: #FECE2E;
+    width:10px;
+    height:10px;
+    border-radius: 100%;
+    left:calc(50% - 10px);
+
+  }
+  
+  .left ul li img{
+    width:160px;
+    height:40px;
+  }
+.right{
+  display: flex;
+}
+  .right ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+   
+  }
+
+  .right ul li{
+    margin-left:30px;
+    font-size: 18px; 
+  }
+
+  .join{
+    background-color:#FECE2E; 
+    padding:10px 20px;
+    border-radius: 15px;
+    font-weight: 700;
+    box-shadow: -5px 5px 15px 0 rgb(255 206 46 / 40%);
+    transition: all 0.5s ease;
+  }
+  .join:hover{
+    color:white;
+  }
+.mContainer{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding:30px 15px;
+  background-color: white;
+  width: 100%;
+}  
+.mLeft img{
+  width: 120px;
+}
+.menu{
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  transition: all 2s ease;
+  font-size: 30px;
+}
+.another{
+  display: flex;
+}
+.menu ul li {
+  list-style-type: none;
+
+}
+.mobileNav{
+display: none;
+}
+.hamburger{
+  width: 20px;
+  height: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  cursor: pointer;
+ 
+ 
+
+}
+.hamburger span{
+  width: 100%;
+  height:3px;
+  background-color:black;
+ 
+  transform-origin: left;
+  transition: all 2s ease;
+
+}
+@media only screen and (max-width: 1000px) {
+  .mobileNav{
+    display: block;
+    width: 100%;
+    }
+    .topBar{
+      display: none;
+    }
+}
+@media only screen and (max-width: 414px) {
+  .mContainer{
+    padding:20px 15px;
+  }
+  .menu{
+font-size: 15px;;
+  }
+}

@@ -1,0 +1,45 @@
+.container{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.wrapper{
+    display: flex;
+   width:400px;
+   align-items: center;
+   position: relative;
+   border: 1px solid #dcdcdc;
+   border-radius: 10px;
+}
+.location{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: small;
+    color:grey
+}
+.locationIcon{
+ margin-right:5px;
+}
+.wrapper input{
+   
+    display: block;
+    border: none;
+    font-size: 18px;
+    font-weight:700;
+    padding: 15px ;
+    width: 75%;
+ 
+    border-radius: 10px;
+    outline: none !important;
+    box-sizing: border-box;
+   
+}
+
+@media only screen and (max-width: 414px) {
+    .wrapper{
+        width:340px;
+        font-size: 12px;
+       
+    }
+}

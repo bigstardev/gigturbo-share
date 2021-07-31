@@ -1,0 +1,20 @@
+.headTitle, .headTitleS{
+    margin-top: 50px;;
+    text-align: center;
+    margin-bottom: 30px;;
+  }
+
+  @media only screen and (max-width: 768px) {
+    .headTitle{
+     font-size: small;
+     
+    }
+  }
+  @media only screen and (max-width:414px){
+    .headTitle{
+      margin-top: 10px;
+    }
+    .headTitleS{
+      display: none;
+    }
+  }

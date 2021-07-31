@@ -1,0 +1,47 @@
+.container{
+    background: white;
+    padding:20px;
+    /* display: flex; */
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    
+
+}
+.wrapper{
+    display: flex;
+    justify-content: flex-start !important;
+}
+.header img{
+    border-radius: 10px;
+   border: 1px solid #E0E0E0;
+   width:50px;
+   height: 50px;
+   }
+.header{
+    display: flex;
+    justify-content: flex-start;
+    align-items: start;
+}
+
+.header h3{
+    margin-left:30px;
+    font-size:20px;
+    margin-top:10px;
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top:50px;
+   justify-content: space-between
+}
+.footer span{
+    margin-top: 15px;
+    cursor: pointer;
+}
+.footer button{
+    background: yellow;
+    border:0px;
+    padding:10px;
+}
